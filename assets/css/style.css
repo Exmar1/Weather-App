@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	font-family: 'Inter', sans-serif;
+	background-color: #292727;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 34rem;
+	background-color: #fff;
+	border-radius: 2.4rem;
+	padding: 2.4rem 2rem;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.icon-input {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	background-color: #f3f3f3;
+	border-radius: 3rem;
+	padding: 0.6rem 1.6rem;
+}
+
+.icon-input img {
+	width: 2.4rem;
+	height: 2.4rem;
+	object-fit: contain;
+}
+
+.input-weather {
+	flex: 1;
+	border: none;
+	outline: none;
+	background: transparent;
+	font-size: 1.6rem;
+	color: #292727;
+	padding: 0 1rem;
+}
+
+.input-weather::placeholder {
+	color: #777;
+}
+
+.icon-weather {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: 2rem 0;
+}
+
+.weather-icon {
+	width: 28rem;
+	height: 24rem;
+	object-fit: contain;
+}
+
+.p-not-found {
+	font-size: 1.4rem;
+	color: #444;
+	margin-top: 1.2rem;
+}
+
+.weather-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 2rem;
+	padding-top: 1rem;
+	border-top: 1px solid #eee;
+}
+
+.weather-box-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 0.6rem;
+}
+
+.weather-box img {
+	width: 4rem;
+	height: 4rem;
+	object-fit: contain;
+}
+
+.weather-box p {
+	font-size: 1.4rem;
+	color: #292727;
+}

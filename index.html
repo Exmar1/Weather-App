@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<title>Weather App</title>
+	</head>
+	<body>
+		<div class="card--content">
+			<div class="card">
+				<div class="icon-input">
+					<img class="gps-icon" src="img/gps.png" alt="GPS" />
+					<input
+						placeholder="Введите локацию"
+						class="input-weather"
+						type="text"
+					/>
+					<img class="icon-search" src="img/search.png" alt="Search" />
+				</div>
+
+				<div class="icon-weather">
+					<img
+						class="weather-icon"
+						src="img/undraw_location-search_nesh.svg"
+						alt=""
+					/>
+					<p class="p-not-found">Oops! Invalid location!</p>
+				</div>
+
+				<div class="weather-box">
+					<div class="weather-box-item">
+						<img src="img/wind.png" alt="" />
+						<p>Скорость ветра</p>
+					</div>
+					<div class="weather-box-item">
+						<img src="img/rain.png" alt="" />
+						<p>Процент влажности</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
