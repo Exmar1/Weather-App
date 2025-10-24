@@ -30,7 +30,7 @@
 
 1. Склонируй репозиторий:
    ```bash
-   git clone https://github.com/твоя-ссылка-на-репозиторий.git```
+   git clone https://github.com/твоя-ссылка-на-репозиторий.git
    
 2. Перейди в папку проекта:
    cd Weather-App
