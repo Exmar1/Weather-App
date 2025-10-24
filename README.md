@@ -45,10 +45,11 @@
 
 ---
 
-🧩 API
+🧩 API:
 Проект использует OpenWeatherMap API.
 
 👨‍💻 Автор
+
 Exmar — Fullstack Developer
 
 📧 Telegram: @Exmar1
